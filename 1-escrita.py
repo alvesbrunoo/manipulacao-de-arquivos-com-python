@@ -11,5 +11,5 @@ name = input('Digite seu nome:\n')
 # file.write(f'{name}\n')
 # file.close()
 
-with open('names.txt', 'r') as file:
+with open('names.txt', 'a') as file:
     file.write(f'{name}\n')
